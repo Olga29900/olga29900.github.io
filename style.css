@@ -321,7 +321,6 @@ aside
     width: 100%;
     border-radius: 10px;
     background-color: #FFFFFF;
-    margin-top: 10px;
 }
 
 .activites_header
@@ -424,7 +423,7 @@ aside
     box-shadow: 0px 6px 0px #F2F2F2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: 30px;
+    margin: 40px;
 }
 
 .card4right2
@@ -434,8 +433,9 @@ aside
     box-shadow: 0px 6px 0px #F2F2F2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: 30px;
-    margin-top: 10px;
+    margin: 40px;
+    margin-top: 1px;
+    
 }
 
 .card4-text
