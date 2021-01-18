@@ -4,6 +4,26 @@
 
 {
 
+nav
+{
+	width: auto;
+	text-align: left;
+}
+
+nav ul
+{
+	flex-direction: column;
+}
+
+nav li
+{
+	padding-left: 4px;
+}
+
+nav a
+{
+	font-size: 1.1em;
+}
 
 #bloc_page
 {
