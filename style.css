@@ -132,6 +132,18 @@ nav a
 	color: #F2F2F2;
 }
 
+.icon-background2 {
+    color: #FFFFFF;
+}
+
+.fa-info {
+  color: #0065FC;
+  position: absolute;
+    top: 0px;
+	right: 10px;
+}
+
+
 /* couleur des stars des icônes et mise en forme !*/
 
 .fa-star
