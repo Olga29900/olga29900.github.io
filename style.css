@@ -150,6 +150,7 @@ nav a
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 20px;
     width: 60%;
 
 }
@@ -203,8 +204,10 @@ nav a
 	text-align: center;
 	border: solid;
 	border-radius: 10px;
-	border-color: #F2F2F2;
+    border-color: #F2F2F2;
+    padding-left: 40px;
     padding-bottom: 9px;
+    margin-top: 15px;
 
 }
 
