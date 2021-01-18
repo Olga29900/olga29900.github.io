@@ -218,7 +218,7 @@ nav a
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 15px;
+    padding: 20px;
     background-color: #F2F2F2;
     border-radius: 10px;
     width: 55%;
@@ -236,14 +236,16 @@ nav a
 
 .cardheader
 {
-	position: absolute;
+    position: absolute;
 
 }
 
 .card
 {
 	background-color: #FFFFFF;
-	border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
 	padding: 5px;
 	padding-bottom: 5px;
 	margin: 10px;
