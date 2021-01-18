@@ -124,25 +124,15 @@ nav a
     flex-wrap: nowrap;
 }
 
-.fa-info-circle
-{
-	position: relative;
-	top: 16px;
-	right: 10px;
-	color: #F2F2F2;
-}
 
-.icon-background2 {
-    color: #FFFFFF;
-}
-
+/* inner i*/
 .fa-info {
   color: #0065FC;
-  position: absolute;
-    top: 0px;
-	right: 10px;
+  position: relative;
+    bottom: 16px;
+    left: 25px;
+    font-size: 15px;
 }
-
 
 /* couleur des stars des icônes et mise en forme !*/
 
