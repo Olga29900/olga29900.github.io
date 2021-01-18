@@ -38,7 +38,8 @@ section
 
 aside
 {
-    float: left;
+	float: left;
+	width: 55%;
 }
 
 #populaires
@@ -54,6 +55,22 @@ aside
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+.cardheader2
+{
+	position: absolute;
+}
+
+.card2
+{
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	padding: 5px;
+	padding-bottom: 5px;
+	margin: 10px;
+	margin-top: 30px;
+}
+
 
 #activites
 {
