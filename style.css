@@ -137,6 +137,8 @@ nav a
 .fa-star
 {
     color: #F2F2F2;
+    text-indent: 0.9em;
+    letter-spacing: -0.9em;
 }
 
 .checked {
@@ -251,6 +253,11 @@ nav a
 	margin: 10px;
     margin-top: 30px;
     margin-bottom: 10px;
+}
+
+.card-text
+{
+    text-indent: 0.8em;
 }
 
 .cardfooter
