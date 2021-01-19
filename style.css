@@ -496,7 +496,39 @@ footer
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    width: 90%;
+    width: 100%;
+}
+
+
+.titre_propos
+{
+    margin-left: 40px;
+}
+
+.liste_propos
+{
+    margin-right: 120px;
+}
+
+.titre_hebergements
+{
+    margin-left: 40px;
+}
+
+.liste_hebergements
+{
+    margin-right: 120px;
+}
+
+
+.titre_assistance
+{
+    margin-left: 40px;
+}
+
+.liste_assistance
+{
+    margin-right: 120px;
 }
 
 
@@ -512,7 +544,6 @@ footer
    list-style-type: none;
    display: flex;
    flex-direction: column;
-   margin-left: 40px;
 }
 
 #assistance ul
@@ -520,7 +551,6 @@ footer
    list-style-type: none;
    display: flex;
    flex-direction: column;
-   margin-left: 40px;
 }
 
 
