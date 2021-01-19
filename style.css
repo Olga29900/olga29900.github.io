@@ -270,6 +270,12 @@ aside
     padding: 20px;
 }
 
+.fa-chart-line
+{
+    position: relative;
+    left: 300px;
+    bottom: 35px;
+}
 
 .card2 img
 {
