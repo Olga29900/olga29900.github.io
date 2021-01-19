@@ -76,6 +76,7 @@ aside
 {
 	flex-direction: row;
 	flex-wrap: wrap;
+	width: 80%;
 }
 
 #left
@@ -88,4 +89,14 @@ aside
 	flex-direction: row;
 }
 
+}
+
+#left2
+{
+	flex-direction: row;
+}
+
+#right2
+{
+	flex-direction: row;
 }
