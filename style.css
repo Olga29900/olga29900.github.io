@@ -57,28 +57,16 @@ nav a
 }
 
 
-.recherche_ex
-{
- 	background-color: #FFFFFF;
- 	border-width: 0px;
- 	border-top: solid #F2F2F2;
-    border-bottom: solid #F2F2F2;
-    position: relative;
-    left: 10px;
-    right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: 15px;
-
-}
-
 #site-search
 {
     border-width: 1px;
     border-top: solid #F2F2F2;
     border-bottom: solid #F2F2F2;
+    border-left: none;
+    border-right: none;
+    margin: 16px;
+    position: relative;
+    right: 5px;
 }
 
 
@@ -94,6 +82,8 @@ nav a
     padding-left: 10px;
     margin: 15px;
     margin-left: -5px;
+    position: relative;
+    right: 15px;
 }
 
 .fa-map-marker-alt
