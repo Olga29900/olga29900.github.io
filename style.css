@@ -142,7 +142,7 @@ nav a
     flex-direction: row;
     justify-content: space-around;
     margin: 20px;
-    width: 60%;
+    width: 65%;
 
 }
 
@@ -192,13 +192,15 @@ nav a
 .icone-text
 {
 	float: right;
-	text-align: center;
+    text-align: right;
+    text-indent: 0.4em;
 	border: solid;
 	border-radius: 10px;
     border-color: #F2F2F2;
-    padding-left: 40px;
+    padding-left: 50px;
     padding-bottom: 9px;
-    margin-top: 15px;
+    padding-top: 5px;
+    margin-top: 10px;
 
 }
 
