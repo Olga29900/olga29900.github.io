@@ -31,6 +31,13 @@ nav a
     margin: auto;
 }
 
+/* Mise en forme icones */
+
+#icones
+{
+	width: 100%;
+}
+
 section
 {
 	float: left;
