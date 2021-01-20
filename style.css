@@ -74,6 +74,14 @@ nav a
 
 }
 
+#site-search
+{
+    border-width: 1px;
+    border-top: solid #F2F2F2;
+    border-bottom: solid #F2F2F2;
+}
+
+
 .recherche_touche
 {
 	background-color: #0065FC;
@@ -100,6 +108,8 @@ nav a
     margin-right: -11px;
 }
 
+/* icone info inner i et info text*/
+
 #icone_info
 {
 	display: flex;
@@ -108,7 +118,6 @@ nav a
 }
 
 
-/* inner i et info text*/
 .fa-info {
   color: #0065FC;
   position: relative;
