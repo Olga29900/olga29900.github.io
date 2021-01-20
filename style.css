@@ -108,13 +108,20 @@ nav a
 }
 
 
-/* inner i*/
+/* inner i et info text*/
 .fa-info {
   color: #0065FC;
   position: relative;
     bottom: 16px;
     left: 25px;
     font-size: 15px;
+}
+
+.info-text
+{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
 }
 
 /* couleur des stars des icônes et mise en forme !*/
