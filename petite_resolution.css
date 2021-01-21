@@ -24,7 +24,7 @@ nav li
 
 #bloc_page
 {
-    width: auto;
+    width: 900px;
     margin: auto;
 }
 
@@ -45,7 +45,7 @@ section
 aside
 {
 	float: left;
-	width: 80%;
+	width: 100%;
 	
 }
 
@@ -53,7 +53,9 @@ aside
 
 #hebergements
 {
-	margin-left: 10px;
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 /*populaires*/
@@ -65,13 +67,12 @@ aside
     flex-wrap: nowrap;
     background-color: #F2F2F2;
     border-radius: 10px;
-    width: 71%;
+    width: 80%;
 	float: left;
 	padding-top: 20px;
 	padding-bottom: 100px;
 	padding-right: 0px;
 	padding-left: 30px;
-	margin-left: 10px;
 }
 
 .card2header-text
@@ -120,7 +121,7 @@ aside
 {
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 80%;
+	width: 100%;
 	margin-top: 10px;
 }
 
@@ -186,8 +187,7 @@ aside
 
 footer
 {
-	width: 80%;
-	margin-left: 10px;
+	width: 100%;
 }
 
 }
