@@ -12,17 +12,12 @@ nav
 
 nav ul
 {
-	flex-direction: column;
+	flex-direction: row;
 }
 
 nav li
 {
 	padding-left: 4px;
-}
-
-nav a
-{
-	font-size: 1.1em;
 }
 
 #bloc_page
@@ -60,7 +55,7 @@ aside
     width: 75%;
 	float: left;
 	padding-top: 20px;
-	padding-bottom: 150px;
+	padding-bottom: 100px;
 	padding-right: 5px;
 }
 
@@ -75,8 +70,7 @@ aside
 {
 	width: 190px;
     height: 80px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
     
 }
 
@@ -89,7 +83,7 @@ aside
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	padding: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 110px;
 	margin: 10px;
     margin-top: 30px;
     margin-bottom: 10px;
