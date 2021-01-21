@@ -6,6 +6,12 @@
 
 }
 
+#bloc_page
+{
+    width: auto;
+    margin: auto;
+}
+
 body
 {
 	font-family: 'Raleway';

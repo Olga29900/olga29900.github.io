@@ -3,6 +3,14 @@
 @media all and (max-device-width: 480px)
 {
 
+#hebergements
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+}
+
+
 #populaires
 {
     display: flex;
