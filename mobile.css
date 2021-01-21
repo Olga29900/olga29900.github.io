@@ -1,0 +1,13 @@
+/*règles CSS pour les mobiles*/
+
+@media all and (max-device-width: 480px)
+{
+
+#populaires
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+}
