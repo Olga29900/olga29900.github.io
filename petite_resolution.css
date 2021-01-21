@@ -105,6 +105,11 @@ aside
 	margin-top: 100px;
 }
 
+.card3header
+{
+	margin-left: 25px;
+}
+
 #left
 {
 	flex-direction: row;
@@ -145,7 +150,18 @@ aside
 
 .right2-text
 {
-	margin-top: 40px;
+	margin-top: 80px;
+}
+
+.card4right1
+{
+	margin-left: 10px;
+}
+
+.card4right2
+{
+	margin-top: 35px;
+
 }
 
 footer
