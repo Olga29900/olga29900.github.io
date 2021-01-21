@@ -185,9 +185,43 @@ aside
 
 }
 
+/* Footer*/
+
 footer
 {
 	width: 100%;
 }
+
+.titre_propos
+{
+    margin-left: 40px;
+}
+
+.liste_propos
+{
+    margin-right: 100px;
+}
+
+.titre_hebergements
+{
+    margin-left: 40px;
+}
+
+.liste_hebergements
+{
+    margin-right: 100px;
+}
+
+
+.titre_assistance
+{
+    margin-left: 40px;
+}
+
+.liste_assistance
+{
+    margin-right: 100px;
+}
+
 
 }
