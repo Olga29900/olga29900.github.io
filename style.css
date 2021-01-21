@@ -8,7 +8,7 @@
 
 #bloc_page
 {
-    width: auto;
+    width: 1200px;
     margin: auto;
 }
 
@@ -150,7 +150,7 @@ nav a
     flex-direction: row;
     justify-content: space-around;
     margin: 20px;
-    width: 70%;
+    width: 75%;
 
 }
 
@@ -221,12 +221,13 @@ nav a
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 15px;
     padding-right: 5px;
+    padding-bottom: 35px;
     margin-bottom: 20px;
     background-color: #F2F2F2;
     border-radius: 10px;
-    width: 50%;
+    width: 60%;
     float: left;
 }
 
@@ -285,7 +286,7 @@ aside
     background-color: #F2F2F2;
     border-radius: 10px;
     padding: 20px;
-    margin-left: 0px;
+    padding-bottom: 5px;
 }
 
 .fa-chart-line
@@ -505,7 +506,7 @@ footer
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    width: 100%;
+    width: 95%;
 }
 
 
