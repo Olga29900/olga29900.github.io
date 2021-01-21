@@ -4,6 +4,8 @@
 
 {
 
+/* header*/
+
 nav
 {
 	width: auto;
@@ -68,12 +70,20 @@ aside
 	padding-top: 20px;
 	padding-bottom: 100px;
 	padding-right: 0px;
+	padding-left: 30px;
 	margin-left: 10px;
 }
 
 .card2header-text
 {
 	
+}
+
+.fa-chart-line
+{
+	position: relative;
+	left: 150px;
+	top: 20px;
 }
 
 .card2 img
