@@ -58,6 +58,12 @@ aside
 	display: flex;
 	flex-wrap: wrap;
 }
+.cardfooter-text
+{
+	position: relative;
+	right: 650px;
+	top: 240px;
+}
 
 /*populaires*/
 
@@ -117,6 +123,7 @@ aside
     margin-bottom: 10px;
 }
 
+/*activités*/
 
 #activites
 {
