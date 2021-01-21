@@ -127,6 +127,27 @@ aside
 	flex-direction: row;
 }
 
+.card3
+{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.card3right1
+{
+	margin-top: 40px;
+}
+
+.card3right2
+{
+	margin-top: 50px;
+}
+
+.right2-text
+{
+	margin-top: 40px;
+}
+
 footer
 {
 	width: 80%;
