@@ -38,14 +38,10 @@ nav li
 
 /*section et aside*/
 
-section
-{
-	float: left;
-}
 
 aside
 {
-	float: left;
+
 	width: 100%;
 	
 }
@@ -54,7 +50,7 @@ aside
 
 #hebergements
 {
-	width: 75%;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	padding-bottom: 90px;
