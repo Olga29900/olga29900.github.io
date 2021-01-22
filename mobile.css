@@ -5,7 +5,7 @@
 
 #bloc_page
 {
-    width: 480px;
+    width: auto;
     margin: auto;
 }
 
@@ -13,7 +13,7 @@
 {
     display: flex;
     flex-wrap: wrap;
-    width: 25%;
+    width: 50%;
 }
 
 
