@@ -315,15 +315,15 @@ aside
     padding-bottom: 15px;
     padding-top: 5px;
     padding-left: 5px;
+    
     margin: 10px;
 }
 
 .card2-text
 {
-    display: inline-block;
-    vertical-align: middle;
-    text-indent: 1em;
-    line-height: 10%;
+
+    text-indent: 0.8em;
+
 }
 
 
