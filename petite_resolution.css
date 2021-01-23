@@ -42,7 +42,7 @@ nav li
 aside
 {
 
-	width: 100%;
+	width: 92%;
 	
 }
 
@@ -50,7 +50,7 @@ aside
 
 #hebergements
 {
-	width: 90%;
+	width: 80%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -64,11 +64,21 @@ aside
 	right: 300px;
 }
 
+.card img
+{
+    width: 220px;
+	height: 80px;
+}
+
+.card
+{
+
+	align-items: center;
+}
+
 .cardfooter-text
 {
 	position: relative;
-	right: 725px;
-	top: 260px;
 }
 
 /*populaires*/
@@ -81,36 +91,37 @@ aside
 	justify-content: space-around;
     background-color: #F2F2F2;
     border-radius: 10px;
-    width: 100%;
+    width: 80%;
 	float: left;
 	padding-top: 20px;
 	padding-bottom: 100px;
 	padding-right: 10px;
-	padding-left: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 .card2header-text
 {
-	position: absolute;
+	position: relative;
 	
 }
 
 .card2-text
 {
 	text-indent: 0.8em;
-	line-height: 1em;
+	line-height: 0.8em;
 }
 
 .fa-chart-line
 {
 	position: relative;
-	left: 160px;
+	left: 50px;
 	top: 20px;
 }
 
 .card2 img
 {
-	width: 190px;
+	width: 220px;
     height: 80px;
     display: flex;
     border-top-left-radius: 10px;
