@@ -50,17 +50,25 @@ aside
 
 #hebergements
 {
-	width: 100%;
+	width: 90%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding-bottom: 90px;
+	margin-left: 40px;
 }
+
+.cardheader-text
+{
+	position: relative;
+	right: 300px;
+}
+
 .cardfooter-text
 {
 	position: relative;
-	right: 0px;
-	top: 40px;
+	right: 725px;
+	top: 260px;
 }
 
 /*populaires*/
