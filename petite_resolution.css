@@ -15,16 +15,22 @@
 nav
 {
 	width: auto;
-	text-align: left;
+	display: flex;
+	justify-content: right;
+	margin-right: 5px;
 }
 
 nav ul
 {
+	display: flex;
 	flex-direction: row;
+	justify-content: right;
 }
 
 nav li
 {
+	display: flex;
+	justify-content: right;
 	padding-left: 4px;
 }
 
@@ -61,7 +67,7 @@ aside
 .cardheader-text
 {
 	position: relative;
-	right: 300px;
+	right: 275px;
 }
 
 .card img
