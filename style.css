@@ -8,7 +8,7 @@
 
 #bloc_page
 {
-    width: 1200px;
+    width: auto;
     margin: auto;
 }
 
@@ -46,15 +46,13 @@ nav ul
 {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 
 nav li
 {
-    margin-right: 20px;
-    display: flex;
-    justify-content: center;
+    margin-right: 15px;
 
 }
     
@@ -63,8 +61,8 @@ nav a
 
     font-size: 0.9em;
     color: #0065FC;
-    padding-bottom: 3px;
     text-decoration: none;
+    font-weight: normal;
 
 }
 
