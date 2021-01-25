@@ -20,10 +20,20 @@ body
 
 /* Header */
 
-h1
+header
 {
-	font-size: 1.4em;
-	font-weight: normal;
+    width: 100%;
+}
+
+#logomenu
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu
+{
+    justify-content: right;
 }
 
 nav ul
@@ -50,6 +60,12 @@ nav a
     padding-bottom: 3px;
     text-decoration: none;
 
+}
+
+h1
+{
+	font-size: 1.4em;
+	font-weight: normal;
 }
 
 /* Recherche*/
