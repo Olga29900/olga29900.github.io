@@ -428,10 +428,10 @@ aside
 
 .card3
 {
-    background-color: #FFFFFF;
-    border-color: #DEEBFF;
-    border-radius: solid 10px;
-    box-shadow: 0px 0px 2px 2px;
+background-color: #FFFFFF;
+box-shadow: 0px 0px 2px 2PX #F2F2F2;
+border-radius: 10px;
+margin: 30px;
 }
 
 .card3right1 img
