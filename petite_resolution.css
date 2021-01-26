@@ -68,6 +68,8 @@ article
 	top: 30%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	margin-top: 50vh;
+	transform: translateY(-50%);
 }
 
 
@@ -94,10 +96,7 @@ article
     border-radius: 10px;
     width: 86%;
 	float: left;
-	position: absolute;
-	top: 80%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	
 
 }
 
