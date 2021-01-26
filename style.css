@@ -437,20 +437,37 @@ margin: 30px;
 .card3right1 img
 {
     width: 240px;
-    height: 330px;
+    height: 200px;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
+.card3right1
+{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 2px 2PX #F2F2F2;
+    border-radius: 10px;
+    margin: 30px;
+}
+
 .card3right2 img
 {
     width: 240px;
-    height: 330px;
+    height: 200px;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+.card3right2
+{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 2px 2PX #F2F2F2;
+    border-radius: 10px;
+    margin: 30px;
+}
+
 
 .card3-text
 {
@@ -491,37 +508,55 @@ margin: 30px;
 .card4right1 img
 {
     width: 240px;
-    height: 330px;
+    height: 200px;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.card4right1
+{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 2px 2PX #F2F2F2;
+    border-radius: 10px;
+    margin: 30px;
 }
 
 .card4right2 img
 {
     width: 240px;
-    height: 330px;
+    height: 200px;
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
+.card4right2
+{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 2px 2PX #F2F2F2;
+    border-radius: 10px;
+    margin: 30px;
+}
+
 .card4-text
 {
     font-size: 0.9em;
-    margin: 10px;
+    margin: 15px;
 }
 
 .card4right1-text
 {
 	font-size: 0.9em;
-    margin: 10px;
+    margin: 15px;
+    padding-bottom: 5%;
 }
 
 .card4right2-text
 {
 	font-size: 0.9em;
-    margin: 10px;
+    margin: 15px;
+    padding-bottom: 5%;
 }
 
 
