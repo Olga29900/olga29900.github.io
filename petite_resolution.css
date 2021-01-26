@@ -61,15 +61,10 @@ aside
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	padding-bottom: 50px;
-	margin-left: 40px;
+	padding-bottom: 50%;
+	margin-left: 40%;
 }
 
-.cardheader-text
-{
-	position: relative;
-	right: 275px;
-}
 
 .card img
 {
@@ -79,15 +74,9 @@ aside
 
 .card
 {
-
 	align-items: center;
 }
 
-.cardfooter-text
-{
-	position: relative;
-	right: 300px;
-}
 
 /*populaires*/
 

@@ -6,16 +6,22 @@
 
 }
 
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 #bloc_page
 {
-    width: auto;
+    width: 1200px;
     margin: auto;
-    margin-left: 5%;
 }
 
 body
 {
-	font-family: 'Raleway';
+    font-family: 'Raleway';
+    overflow-x: hidden;
 }
 
 
@@ -284,9 +290,7 @@ h1
 
 .cardfooter
 {
-    position: relative;
-    top: 275px;
-    right: 650px;
+    
 }
 
 /* Bloc section populaires */
@@ -426,7 +430,7 @@ aside
 {
     border-radius: 10px;
     background-color: #FFFFFF;
-    box-shadow: 0px 6px 0px #F2F2F2;
+    box-shadow: 0px 0px 2px 2px #F2F2F2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin: 20px;
@@ -436,7 +440,7 @@ aside
 {
     border-radius: 10px;
     background-color: #FFFFFF;
-    box-shadow: 0px 6px 0px #F2F2F2;
+    box-shadow: 0px 0px 2px 2px #F2F2F2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin: 20px;
@@ -467,7 +471,7 @@ aside
 {
     border-radius: 10px;
     background-color: #FFFFFF;
-    box-shadow: 0px 6px 0px #F2F2F2;
+    box-shadow: 0px 0px 2px 2px #F2F2F2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin: 30px;
@@ -477,7 +481,7 @@ aside
 {
     border-radius: 10px;
     background-color: #FFFFFF;
-    box-shadow: 0px 6px 0px #F2F2F2;
+    box-shadow: 0px 0px 2px 2px #F2F2F2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin: 40px;
@@ -487,7 +491,7 @@ aside
 {
     border-radius: 10px;
     background-color: #FFFFFF;
-    box-shadow: 0px 6px 0px #F2F2F2;
+    box-shadow: 0px 0px 2px 2px #F2F2F2;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin: 40px;
@@ -525,7 +529,7 @@ footer
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    width: 95%;
+    width: 100%;
 }
 
 
