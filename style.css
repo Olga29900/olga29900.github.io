@@ -90,6 +90,7 @@ h1
 {
     display: inline-block;
     width: 25%;
+    height: 41px;
     vertical-align: middle;
     border-top: solid #F2F2F2;
     border-bottom: solid #F2F2F2;
@@ -102,12 +103,13 @@ h1
 
 .recherche_touche
 {
-	background-color: #0065FC;
-	color: #FFFFFF;
+    background-color: #0065FC;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 17px;
 	border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 1%;
-    
 }
 
 .fa-map-marker-alt
