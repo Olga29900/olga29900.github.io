@@ -53,14 +53,21 @@ aside
 	
 }
 
+article
+{
+
+}
+
 /*hébergements*/
 
 #hebergements
 {
-	width: 86%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 
@@ -75,35 +82,7 @@ aside
 	align-items: center;
 }
 
-.card:nth-child(1)
-{
-    order: 1;
-}
 
-.card:nth-child(2)
-{
-    order: 2;
-}
-
-.card:nth-child(3)
-{
-    order: 3;
-}
-
-.card:nth-child(4)
-{
-    order: 4;
-}
-
-.card:nth-child(5)
-{
-    order: 5;
-}
-
-.card:nth-child(6)
-{
-    order: 6;
-}
 
 
 /*populaires*/
