@@ -419,50 +419,29 @@ aside
 
 .card3 img
 {
-object-fit: contain;
+    width: 240px;
+    height: 330px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .card3right1 img
 {
-object-fit: contain;
+    width: 240px;
+    height: 330px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .card3right2 img
 {
-object-fit: contain;
-}
-
-
-.card3
-{
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 2px 2px #F2F2F2;
+    width: 240px;
+    height: 330px;
+    object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: 20px;
-}
-
-.card3right1
-{
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 2px 2px #F2F2F2;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin: 20px;
-    margin-top: 20px;
-}
-
-.card3right2
-{
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 2px 2px #F2F2F2;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin: 20px;
-    margin-top: 20px;
 }
 
 .card3-text
@@ -484,37 +463,31 @@ object-fit: contain;
     margin: 15px;
 }
 
-
-.card4
+.card4 img
 {
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 2px 2px #F2F2F2;
+    width: 240px;
+    height: 330px;
+    object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: 30px;
 }
 
-.card4right1
+.card4right1 img
 {
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 2px 2px #F2F2F2;
+    width: 240px;
+    height: 330px;
+    object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: 40px;
 }
 
-.card4right2
+.card4right2 img
 {
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 2px 2px #F2F2F2;
+    width: 240px;
+    height: 330px;
+    object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: 40px;
-    margin-top: 1px;
-    
 }
 
 .card4-text
