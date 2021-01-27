@@ -64,12 +64,12 @@ article
 {
 	display: flex;
 	flex-wrap: wrap;
+	
 	position: absolute;
 	top: 30%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	margin-top: 50vh;
-	transform: translateY(-50%);
+	left: 5%;
+	transform: translate(-25%, -25%);
+	transform: translateY(-10%);
 }
 
 
@@ -95,10 +95,13 @@ article
     background-color: #F2F2F2;
     border-radius: 10px;
     width: 86%;
-	float: left;
+	position: absolute;
+	top: 80%;
+	left: 5%;
 	
 
 }
+
 
 .card2header-text
 {
@@ -146,9 +149,14 @@ article
 {
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 100%;
-	margin-top: 10px;
-	margin-left: 30px;
+	width: 90%;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 100vh;
+	transform: translateY(-50%);
+
 }
 
 .card3header
