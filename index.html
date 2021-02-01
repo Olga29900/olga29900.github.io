@@ -18,53 +18,56 @@
     <a class="headerInscrire" href="#"><strong>S'inscrire</strong></a>
 </header>
 
-<section>
+<main class="principale">
+<section class="recherche">
+    <header class="headerRecherche">
+    <h1 class="rechercheHeaderTitre">Trouvez votre hébergement pour des vacances de rêve</h1>
+    <p class="rechercheHeaderSousTitre">En plein centre-ville ou en pleine nature</p>
+    </header>
 
-  <h1><strong>Trouvez votre hébergement pour des vacances de rêve</strong></h1>
-    <p>En plein centre-ville ou en pleine nature</p>
+    <form class="searchForm">
+        <span class="searchFormWrapicon">
+          <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
+        </span>
+        <input class="searchFormSearchinput" type="search" placeholder="Marseille, France" size="1">
+        <button class="searchFormSubmitinput">
+          <span class="searchFormSubmitinputText">Rechercher</span>
+          <i class="searchFormSubmitinputIcon fas fa-search"></i>
+        </button>
+      </form>
 
-<div id="recherche">
-<i class="fas fa-map-marker-alt"></i>
-
-<label for="site-search"></label>
-<input type="search" id="site-search" name="q"
-       aria-label="Search through site content" autocomplete="off">
-
-<p class="recherche_touche"><strong>Rechercher</strong></p>
-</div>
-     
-
-<div id="icones">
-<p class="filtres_titre"><strong>Filtres</strong></p>
-
-<div class="money"><i class="fas fa-circle"></i>
-<i class="fas fa-money-bill-wave"></i> <p class="icone-text"><strong>Économique</strong></p>
-</div>
-
-
-<div class="child"><i class="fas fa-circle"></i>
-<i class="fas fa-child"></i> <p class="icone-text"><strong>Familial</strong></p>
-</div>
-
-<div class="heart"><i class="fas fa-circle"></i>
-<i class="fas fa-heart"></i> <p class="icone-text"><strong>Romantique</strong></p>
-</div>
-
-
-<div class="dog"><i class="fas fa-circle"></i>
-<i class="fas fa-dog"></i> <p class="icone-text"><strong>Animaux autorisés</strong></p>
-</div>
-
-</div>
-
-      <div id="icone_info">
-        <span class="fa-stack fa-2x">
-            <i class="fa fa-circle fa-stack-2x" style="font-size: 25px; position : relative; left: 19px; top: -20px; color: #FFFFFF; border:1px solid #F2F2F2; width: 40px; height: 40px; border-radius: 20px;"></i>
-            <i class="fa fa-info fa-stack-1x"></i> </span><p class="info-text"> Plus de 500 logements sont disponibles dans cette ville</p>
-    </div>
-
-
-</section>
+      <div class="searchFilters">
+        <h2 class="searchFiltersTitle">Filtres</h2>
+        <div class="searchFiltersFilter">
+          <div class="searchFiltersFilterWrapicon">
+            <i class="fas fa-money-bill-wave searchFiltersFilterWrapiconIcon"></i>
+          </div>
+          <span class="searchFiltersFilterTitle">Économique</span>
+        </div>
+        <div class="searchFiltersFilter">
+          <div class="searchFiltersFilterWrapicon">
+            <i class="fas fa-child searchFiltersFilterWrapiconIcon"></i>
+          </div>
+          <span class="searchFiltersFilterTitle">Familial</span>
+        </div>
+        <div class="searchFiltersFilter">
+          <div class="searchFiltersFilterWrapicon">
+            <i class="fas fa-heart searchFiltersFilterWrapiconIcon"></i>
+          </div>
+          <span class="searchFiltersFilterTitle">Romantique</span>
+        </div>
+        <div class="searchFiltersFilter">
+          <div class="searchFiltersFilterWrapicon">
+            <i class="fas fa-dog searchFiltersFilterWrapiconIcon"></i>
+          </div>
+          <span class="searchFiltersFilterTitle">Animaux autorisés</span>
+        </div>
+      </div>
+      <div class="searchResult">
+        <div class="searchResultWrapicon"><i class="fas fa-info searchResultWrapiconIcon"></i></div>
+        <p class="searchResultText">Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+    </section>
 
   <section>
   	
@@ -279,6 +282,7 @@
 </div>
 </section>
 
+</main>
 <footer>
     <div id="apropos">
      <p class="titre_propos"><strong>À propos</strong></p>
