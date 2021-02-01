@@ -20,8 +20,8 @@ body
   }
   .logo {
     grid-area: logo;
-    padding: 0 2rem;
-    height: 2.813rem;
+    padding: 2rem;
+    height: 3rem;
   }
   .headerMenu {
     display: flex;
