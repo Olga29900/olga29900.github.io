@@ -3,7 +3,6 @@
     src: url('Font/Raleway-VariableFont_wght.ttf') format('TrueType');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body
@@ -263,59 +262,68 @@ body
   color: #0065FC;
   }
 
-
-
-/* Bloc section hébergements*/
-
-
-#hebergements
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  .hebergementPrincipal {
     background-color: #F2F2F2;
-    border-radius: 10px;
-    width: 60%;
-    float: left;
-}
-
-.card img
-{
-    width: 190px;
-    height: 80px;
+    border-radius: 1.5rem;
+    padding: 2rem;
+  }
+  
+  .hebergement {
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 6fr 3fr;
+  }
+  .hebergementPrincipal {
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+  .hebergementPrincipalHeader {
+    grid-column: 1/-1;
+  }
+  .hebergementPrincipalHeaderTitre {
+    margin: 0;
+  }
+  .hebergementPrincipalCard {
+    background-color: white;
+    padding: 0.375rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 100%;
+  }
+  .hebergementPrincipalCard:hover {
+    transform: scale(1.02);
+  }
+  .hebergementPrincipalCardFigure {
+    margin: 0;
+  }
+  .hebergementPrincipalCardFigureImg {
+    height: 7rem;
     object-fit: cover;
-    display: flex;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.cardheader
-{
-    position: absolute;
-
-}
-
-.card
-{
-	background-color: #FFFFFF;
-    border-radius: 10px;
-	padding: 5px;
-	padding-bottom: 5px;
-	margin: 10px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
+  }
+  .hebergementPrincipalCardFigureCaptionTitre {
+    margin: 0.25rem 0.75rem 0 0.75rem;
+  }
+  .hebergementPrincipalCardPrix {
+    margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+  }
+  .hebergementPrincipalCardPrixEuro {
+    font-weight: bold;
+  }
+  .hebergementPrincipalCardStar {
+    margin: 0 0.75rem 0.25rem 0.75rem;
+  }
+  
 
 
-.card-text
-{
-    text-indent: 0.8em;
-}
 
-.cardfooter
-{
-    margin: 15px;
-}
 
 /* Bloc section populaires */
 
