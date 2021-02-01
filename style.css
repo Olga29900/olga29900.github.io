@@ -249,7 +249,6 @@ body
   }
 
 
-/* couleur des stars des icônes et mise en forme !*/
 
 .fa-star
 {
@@ -321,7 +320,18 @@ body
     margin: 0 0.75rem 0.25rem 0.75rem;
   }
 
+  .hebergementPrincipalAfficher {
+    font-weight: bold;
 
+  .fa-star
+    {
+        color: #d9d9d9;
+     
+    }
+    
+  .checked {
+      color: #0065FC;
+      }
 /* Bloc section populaires */
 
 aside
