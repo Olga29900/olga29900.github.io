@@ -236,7 +236,7 @@ body
       width: 100%;
     }
     .searchFiltersFilter {
-      margin-right: 1rem;
+      margin-right: 1.5rem;
     }
   }
   @media screen and (min-width: 601px) {
@@ -320,9 +320,6 @@ body
   .hebergementPrincipalCardStar {
     margin: 0 0.75rem 0.25rem 0.75rem;
   }
-  
-
-
 
 
 /* Bloc section populaires */
