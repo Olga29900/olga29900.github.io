@@ -95,3 +95,16 @@ a {
     border-bottom-color: #0065FC;
   }
 }
+
+.contenu {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+.rechercheHeaderTitre {
+  margin-bottom: 0.5rem;
+}
+.rechercheHeaderSoustitre {
+  margin-top: 0;
+}
