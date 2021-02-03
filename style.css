@@ -226,7 +226,8 @@ a {
     width: 100%;
   }
   .rechercheBarreBouton {
-    flex: 0.5;
+    flex: 0.1;
+    border-radius: 1rem 1rem 1rem 1rem;
   }
   .rechercheBarreBoutonTexte {
     display: none;
