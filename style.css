@@ -382,14 +382,14 @@ a {
   }
 
   @media (max-width: 650px) {
-    .hosting {
+    .hebergement {
       grid-template-columns: 1fr;
       row-gap: 2rem;
     }
-    .hostingPopular {
+    .hebergementPopulaire {
         order: 1;
     }
-    .hostingMain {
+    .hebergementPrincipal {
         order: 2;
     }
     }
