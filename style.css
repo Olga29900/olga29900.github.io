@@ -364,20 +364,8 @@ a {
 
   @media (min-width: 925px) {
     .hebergementPrincipal {
+      row-gap: 2rem;
       grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  @media (max-width: 1000px) {
-    .hebergementPopulaire {
-      grid-template-columns: 1fr;
-      grid-template-rows: auto repeat(3, 9rem);
-    }
-  }
- 
-  @media (max-width: 650px) {
-    .hebergementPrincipal {
-      grid-template-columns: 1fr;
     }
   }
 
@@ -392,7 +380,8 @@ a {
     .hebergementPrincipal {
         order: 2;
     }
-    }
+    
+  
     .activite {
       display: grid;
       column-gap: 2rem;
