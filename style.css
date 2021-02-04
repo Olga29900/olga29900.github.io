@@ -368,15 +368,6 @@ a {
       grid-template-columns: repeat(3, 1fr);
     }
   }
-
-  @media (max-width: 925px) {
-    .activite {
-      row-gap: 2rem;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: auto 12rem 12rem 12rem;
-    }
-  }
-
   @media (max-width: 650px) {
     .hebergement {
       grid-template-columns: 1fr;
@@ -460,6 +451,13 @@ a {
         row-gap: 2rem;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto 12rem 12rem;
+      }
+    }
+    @media (max-width: 925px) {
+      .activite {
+        row-gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 12rem 12rem 12rem;
       }
     }
     @media (max-width: 925px) {
