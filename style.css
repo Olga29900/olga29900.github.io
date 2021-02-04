@@ -393,3 +393,87 @@ a {
         order: 2;
     }
     }
+    .activite {
+      display: grid;
+      column-gap: 2rem;
+      margin: 4rem 0;
+    }
+    .activiteTitre {
+      grid-column: 1/-1;
+    }
+    .activiteCarte {
+      box-shadow: 0 0 20px #0000002e;
+      border-radius: 1rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition-duration: 0.1s;
+    }
+    .activiteCarte:hover {
+      transform: scale(1.01);
+    }
+    .activiteCarteWrapimg {
+      position: relative;
+      flex: 1;
+    }
+    .activiteCarteWrapimgImg {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    .activiteCarteTitre {
+      margin: 1.2rem 1.5rem;
+    }
+    
+    @media (min-width: 1100px) {
+      .activite {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+      }
+      .activiteCarte1 {
+        grid-row: 2/7;
+        grid-column: 1/2;
+      }
+      .activiteCarte2 {
+        grid-column: 2/3;
+        grid-row: 2/5;
+      }
+      .activiteCarte3 {
+        grid-column: 3/4;
+        grid-row: 2/7;
+      }
+      .activiteCarte4 {
+        grid-column: 4/5;
+        grid-row: 2/3;
+      }
+      .activiteCarte5 {
+        grid-column: 2/3;
+        grid-row: 6/7;
+      }
+      .activiteCarte6 {
+        grid-column: 4/5;
+        grid-row: 4/7;
+      }
+    }
+    @media (max-width: 1100px) {
+      .activite {
+        row-gap: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 12rem 12rem;
+      }
+    }
+    @media (max-width: 925px) {
+      .activite {
+        row-gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 12rem 12rem 12rem;
+      }
+    }
+    @media (max-width: 650px) {
+      .activite {
+        row-gap: 2rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
+      }
+    }
