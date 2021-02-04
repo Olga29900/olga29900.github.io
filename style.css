@@ -382,6 +382,9 @@ a {
       grid-template-columns: 1fr;
       row-gap: 2rem;
     }
+    .hebergementPopulaireCarte {
+      height: 10rem;
+    }
     .hebergementPopulaire {
         order: 1;
     }
