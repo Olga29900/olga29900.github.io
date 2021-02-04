@@ -358,7 +358,7 @@ a {
 .hebergementPopulaireWrapcontentContentWhitespace {
   flex: 1;
 }
-.hebergementPopulairehebergementPrincipalCard {
+.hebergementPopulairehebergementPrincipalCarte {
   height: 8.75rem;
 }
 
@@ -366,6 +366,14 @@ a {
     .hebergementPrincipal {
       row-gap: 2rem;
       grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 925px) {
+    .activite {
+      row-gap: 2rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto 12rem 12rem 12rem;
     }
   }
 
@@ -380,8 +388,7 @@ a {
     .hebergementPrincipal {
         order: 2;
     }
-    
-  
+    }
     .activite {
       display: grid;
       column-gap: 2rem;
