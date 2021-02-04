@@ -370,8 +370,8 @@ a {
   }
   @media (max-width: 650px) {
     .hebergement {
-      grid-template-columns: 1fr;
       row-gap: 2rem;
+      grid-template-columns: 1fr;
     }
     .hebergementPopulaireCarte {
       height: 10rem;
