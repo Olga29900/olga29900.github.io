@@ -368,6 +368,33 @@ a {
       grid-template-columns: repeat(3, 1fr);
     }
   }
+
+  @media (max-width: 1100px) {
+    .hebergement {
+      grid-template-columns: 1fr;
+      row-gap: 2rem;
+    }
+  
+    .hebergementPrincipal {
+      row-gap: 2rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto 13rem 13rem 13rem;
+    }
+    .hebergementPopulaire {
+      order: 1;
+    }
+    .hebergementPrincipal {
+      order: 2;
+    }
+  }
+  @media (max-width: 925px) {
+    .hebergementPrincipal {
+      row-gap: 2rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto 13rem 13rem;
+    }
+  }
+
   @media (max-width: 650px) {
     .hebergement {
       row-gap: 2rem;
