@@ -381,6 +381,11 @@ a {
       grid-template-rows: auto 13rem 13rem;
     }
     .hebergementPopulaire {
+      row-gap: 2rem;
+      grid-template-columns: 3fr;
+      grid-template-rows: auto 13rem 13rem 13rem;
+    }
+    .hebergementPopulaire {
       order: 1;
     }
     .hebergementPrincipal {
