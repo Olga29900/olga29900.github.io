@@ -409,7 +409,7 @@ a {
       grid-template-columns: 1fr;
     }
     .hebergementPopulaireCarte {
-      height: 10rem;
+      height: 9rem;
     }
     .hebergementPopulaire {
         order: 1;
