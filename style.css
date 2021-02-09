@@ -273,6 +273,7 @@ a {
 }
 .hebergementPrincipalHeaderTitre {
   margin: 0;
+  font-weight: bold;
 }
 .hebergementPrincipalCarte {
   background-color: white;
@@ -300,6 +301,7 @@ a {
 }
 .hebergementPrincipalCarteImageLegendeTitre {
   margin: 0.25rem 0.75rem 0 0.75rem;
+  font-weight: bold;
 }
 .hebergementPrincipalCarteDescription {
   margin: 0.25rem 0.75rem 0.25rem 0.75rem;
@@ -330,6 +332,7 @@ a {
   margin: 0;
   display: flex;
   justify-content: space-between;
+  font-weight: bold;
 }
 .hebergementPopulaireWrapcontent {
   display: flex;
@@ -422,6 +425,7 @@ a {
     }
     .activiteTitre {
       grid-column: 1/-1;
+      font-weight: bold;
     }
     .activiteCarte {
       box-shadow: 0 0 20px #0000002e;
@@ -446,6 +450,7 @@ a {
     }
     .activiteCarteTitre {
       margin: 1.2rem 1.5rem;
+      font-weight: bold;
     }
     
     @media (min-width: 1100px) {
