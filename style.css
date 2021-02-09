@@ -176,7 +176,7 @@ a {
   margin-right: 0;
 }
 .filtresFiltre:hover {
-  background-color: #f3f8ff;
+  background-color: #F2F2F2;
   transform: scale(1.015);
 }
 .filtresFiltreIconeronde {
@@ -227,7 +227,7 @@ a {
   }
   .rechercheBarreBouton {
     flex: 0.1;
-    border-radius: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   }
   .rechercheBarreBoutonTexte {
     display: none;
