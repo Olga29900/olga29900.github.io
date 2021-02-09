@@ -416,6 +416,8 @@ a {
     }
     .hebergementPrincipal {
         order: 2;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 13rem 13rem 13rem 13rem 13rem 13rem;
     }
     }
     .activite {
