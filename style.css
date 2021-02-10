@@ -102,10 +102,10 @@ a {
   padding: 0 2rem;
   box-sizing: border-box;
 }
-.rechercheHeaderTitre {
+.rechercheHautTitre {
   margin-bottom: 0.5rem;
 }
-.rechercheHeaderSoustitre {
+.rechercheHautSoustitre {
   margin-top: 0;
 }
 
@@ -268,10 +268,10 @@ a {
   column-gap: 2rem;
   row-gap: 2rem;
 }
-.hebergementPrincipalHeader {
+.hebergementPrincipalHaut {
   grid-column: 1/-1;
 }
-.hebergementPrincipalHeaderTitre {
+.hebergementPrincipalHautTitre {
   margin: 0;
   font-weight: bold;
 }
