@@ -364,7 +364,7 @@ a {
   height: 8.75rem;
 }
 
-  @media (max-width: 1440px) {
+  @media (max-width: 2000px) {
     .hebergementPrincipal {
       row-gap: 2rem;
       grid-template-columns: repeat(3, 1fr);
