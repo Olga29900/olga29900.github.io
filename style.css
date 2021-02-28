@@ -429,6 +429,8 @@ height: 8.75rem;
   }
   .hebergementPopulaire {
       order: 1;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 14rem 14rem 14rem;
   }
   .hebergementPrincipal {
       order: 2;
