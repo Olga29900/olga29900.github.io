@@ -416,7 +416,7 @@ height: 8.75rem;
   .hebergementPrincipal {
       order: 2;
       grid-template-columns: 1fr;
-      grid-template-rows: auto 13rem 13rem 13rem 13rem 13rem 13rem;
+      grid-template-rows: auto 14rem 14rem 14rem 14rem 14rem 14rem;
   }
 
 @media (max-width: 300px) {
